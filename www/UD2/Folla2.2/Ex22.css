@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    width: 100px;
+}
+
+input[id="apelidos"]{
+    width: 130px;
+}
+
+input[id="idade"]{
+    width: 152px;
+}

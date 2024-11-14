@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="gl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <title>Táboa periódica dos elementos</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <hr>
+    <h1>Táboa Periódica dos Elementos</h1>
+    <hr>
+    <br>
+    <form action="mostrar_elementos.php" method="get">
+        <label for="grupo">Seleccione o grupo que desea consutar:</label>
+        <select name="grupo" id="grupo">
+            <option value="alcalinos">Alcalinos</option>
+            <option value="alcalino-terreos">Alcalino-térreos</option>
+            <option value="terreos">Térreos</option>
+        </select>
+        <input type="submit" value="buscar">
+    </form>
+</body>
+</html>
